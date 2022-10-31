@@ -1,10 +1,10 @@
 import React from "react";
-
+import { FaQuoteLeft } from "react-icons/fa"
 
 function QuoteBox (){
-  return <div>
-    
-  </div>
+  return <div id="quote-box" className='quote-box-container'>
+            <FaQuoteLeft />
+        </div>
 };
 
 
