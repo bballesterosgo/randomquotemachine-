@@ -1,15 +1,34 @@
 import React,{ useState }  from "react";
 import '../Stylesheets/Text.css'
+
  
 
 function Text (){
 
-  const [text,setText] = useState();
+  const [quote,setQuote] = useState([]);
 
-
+  const newQuote = {
+        text:'Me piro',
+        author:'Bernardo'
+      }
   
-  return <div>
-          Hola que tal
+  setQuote(newQuote);
+
+
+  // const getQuote = e => {
+    
+  //   const newQuote = {
+  //     text:'Me piro',
+  //     author:'Bernardo'
+  //   }
+
+  //    setQuote(newQuote)
+  // }
+
+  return <div 
+          className='quote-text' 
+          id='text' >
+            {quote.text}
         </div>
 }
 
