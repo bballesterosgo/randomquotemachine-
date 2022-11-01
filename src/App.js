@@ -4,7 +4,10 @@ import QuoteBox from './components/QuoteBox';
 function App() {
   return (
     <div className="App">
-      <QuoteBox />
+      <div className='title-logo-container'>
+        <h1>Random Quote Machine</h1>
+      </div>
+        <QuoteBox />
     </div>
   );
 }

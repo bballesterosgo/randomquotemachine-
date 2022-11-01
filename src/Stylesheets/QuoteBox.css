@@ -1,6 +1,12 @@
 .quote-box-container{
+  width: 600px;
+  min-height: 500px;
+  background-color: rgb(119, 177, 169);
+  padding: 25px;
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 15px;
+  border-radius: 26px;
 }
