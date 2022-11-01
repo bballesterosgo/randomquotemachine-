@@ -1,14 +1,23 @@
 import React from "react";
 import '../Stylesheets/QuoteBox.css'
-import Text from './Text.jsx'
-import NewQuote from './NewQuote.jsx'
 import { FaQuoteLeft } from "react-icons/fa";
 
-function QuoteBox (){
+
+
+
+function QuoteBox ({ quote, handleNewQuote }){
+
+  
   return <div id="quote-box" className='quote-box-container'>
-            <FaQuoteLeft />
-            <Text />
-            <NewQuote />
+          <FaQuoteLeft />
+          <p id='text'>{quote.text}</p>
+          <p id='author'>{quote.author}</p>
+          <button 
+            id='new-quote' 
+            className='newquote-button'
+            onClick={handleNewQuote}>
+            New Quote
+          </button>
         </div>
 };
 

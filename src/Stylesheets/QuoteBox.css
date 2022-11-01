@@ -10,3 +10,18 @@
   margin-top: 15px;
   border-radius: 26px;
 }
+
+/* Boton para nueva quote */
+.newquote-button{
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
